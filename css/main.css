@@ -1,0 +1,90 @@
+
+#wrapper 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*border:1px solid #000;*/
+}
+#nav
+{
+	margin-top:4%;
+	margin-left:19.5%;
+	text-align:center;
+	float:left;
+	width:10%;
+	padding:1%;
+	line-height:1.2em;
+	font-size:16pt;
+}
+#nav ul {list-style:none;}
+#nav a{color:#000;}
+#nav a:hover {background:#898989;width:100%;}
+#navv2
+{
+	margin-top:4%;
+	margin-left:19.5%;
+	text-align:center;
+	float:left;
+	width:10%;
+	padding:1%;
+	line-height:1.2em;
+	font-size:16pt;
+	height:20em;
+}
+#navPro
+{
+	margin-top:4%;
+	margin-left:19.5%;
+	text-align:center;
+	float:left;
+	width:10%;
+	padding:1%;
+	line-height:1.2em;
+	font-size:16pt;
+	height:20em;
+}
+
+#navPro,#navv2 ul {list-style:none;}
+#navPro,#navv2 a{color:#000;}
+#navPro,#navv2 a:hover {background:#898989;width:100%;}
+
+
+.images {text-align:center;display: inline-block;width:200px;}
+.images1 { display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+#contt1{height:12.5em;text-align:center;}
+#labels {display:block;}
+#conttt2 {height:10em;}
+#conttt2 p{width:80em;font-size:13pt;color:#000;}
+#conttt2,#contttt2 h2, span {font-size:20pt;color:#325C74}
+#conttt2 dd {margin-left:20%;}
+#contt2 p {text-align:center;}
+#contt2 img {margin-left:5%;padding-top:2%;}
+#contt2 h2 {text-align:center; font-size:36pt;}
+#contt3{text-align:center;height:12.5em;padding-top:1%;}
+#footer {padding-top:1%;text-align:center;}
+#contt1 a {background:url(../images/heli.png) no-repeat 0 0;}
+#conttt2 ul.projects {font-size:14pt;}
+#contttt2 {height:30em;}
+li.new {list-style-position:inside;list-style:none;}
+#register{float:left;}
+label {
+    display: block;
+    width: 10em;
+    float: left;
+    text-align: left;
+}
+select{margin-top:5%;	border: 3px solid #313131;
+	font-family: Tahoma, sans-serif;}
+#styled {
+	border: 3px solid #313131;
+	font-family: Tahoma, sans-serif;
+	margin-top:5%;
+}
+
+#test{margin-top:5%;}
+#styled:hover{background:#FEF76E;}
+td.testt2 {text-align:center;}

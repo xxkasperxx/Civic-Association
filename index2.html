@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+            "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>test</title>
+<link href="css/main.css" type="text/css" rel="stylesheet" >
+<link href="css/reset.css" type="text/css" rel="stylesheet" >
+   <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+</script>
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+   	<style type="text/css">
+	/* jQuery lightBox plugin - Gallery style */
+	#gallery {
+		background-color: #444;
+		padding: 10px;
+		width: 520px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #3e3e3e;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="contt1">
+			<div id="gallery">
+    <ul>
+        <li>
+            <a href="images/heli.png" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery').lightBox();">
+                <img src="images/bunny.png" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="imagesbunny.png" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="iages/july.png" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/image3.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="images/thumb_image3.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/image4.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="images/thumb_image4.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="images/image5.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery a').lightBox();">
+                <img src="images/thumb_image5.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+    </ul>
+</div>
+			
+	</div>
+	
+	<div id="contt2">
+		<div id="nav">
+				
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="membership.html">Membership</a></li>
+					<li><a href="leadership.html">Leadership</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="#">Funds</a></li>
+				</ul>
+			</div>
+				<img src="images/logo.png" alt=""><br><br><Br>
+				
+	</div>
+	
+	<div id="contt3">
+		<div class="images">
+			<img src="images/garden.png" alt=""width="200px"height="200px">
+		</div>
+		<div class="images">
+			<img src="images/park.png" alt=""width="200px"height="200px">
+		</div>
+		<div class="images">
+			<img src="images/enterance.png" alt=""width="200px"height="200px">
+		</div>
+		<div class="images">
+			<img src="images/decor.png" alt=""width="200px"height="200px">
+		</div>
+		<div class="images">
+			<img src="images/yard.png" alt=""width="200px"height="200px">
+		</div>
+	</div>
+	
+	<div id="footer">
+		<p>P.O. Box 223</p>
+		<p>Montgomery, TX 77356</p>
+	</div>
+	
+</div>
+</body>
+</html>
